@@ -1,4 +1,6 @@
-
+{
+  back-ground image:https://media.allure.com/photos/5a1359b05a661941e3b80a96/master/w_780,h_780,c_limit/bhcosmetics.jpg
+}
 h1 {text-align: center;
    font-family: 'Lobster', cursive;
    color:#ff6666
@@ -14,5 +16,9 @@ display: inline-block; }
 
 .RISwords { display: inline-block;}
 
-/*.hidden { display: none;
-}*\
+.hidden { display: none;}
+
+.totheright{
+  align:right;
+  display:inline-block;
+}
