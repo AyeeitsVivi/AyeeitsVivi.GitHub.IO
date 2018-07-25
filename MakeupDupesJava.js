@@ -4,3 +4,9 @@ function enlarge(word){
 function smaller(word){
   word.style.fontSize = "20px";
 }
+
+function show(div){}
+  div.style.display = 
+}
+
+ 
