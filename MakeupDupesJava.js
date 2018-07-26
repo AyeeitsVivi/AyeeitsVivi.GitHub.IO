@@ -6,7 +6,5 @@ function smaller(word){
 }
 
 function show(div){}
-  div.style.display = 
+  div.style.display = "inline-block";
 }
-
- 
