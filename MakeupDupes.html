@@ -15,26 +15,29 @@
 
 </head>
 <body>
+  <div id="Header">
   <h1> Makeup dupes </h1> <!-- title -->
 
   <h3> About me: </h3>
   <p class = "makeGray"> Hi! I am Vivi and I love makeup! I own so much makeup, but I hate how expensive some makeup brands are so I decided to build this website to help find dupes for expensive make ups. </p>
+</div>
 
   <p><!-- Anastasia -->
-  <h4 id="Anastasia" onmouseover="enlarge(Anastasia)" onmouseout="smaller(Anastasia)" onclick="show(Anastasia)"> Anastasia </h4></p>
-
-  <div class="hidden" >
-	 Sculputure palette (42$) <!--original-->
-   <p> dupe; Makeup Revolution Iconic Division (7$) </p> <!--- dupe -->
-   Which can be found in <a href="https://www.ulta.com/reloaded-palette?productId=xlsImpprod17681065">Ulta</a>
-   and in <a href="https://www.revolutionbeauty.com/en/us/Revolution-Re-Loaded-Palette---Iconic-Division/m-5829.aspx">revolutionbeauty</a>.
-    <!-- link to ulta and revolutionbeauty -->
-  <p> Sculputure palette <!-- pic of original-->
-  <img src = "https://www.anastasiabeverlyhills.co.uk/dw/image/v2/BBLL_PRD/on/demandware.static/-/Sites-anastasia-master-catalog/default/dwc632f4ee/images/Redesign/Rescaled/abh_subculture_a.jpg?sw=285&sh=285&sm=fit"></p>
-  <alt="Anastasia Beverly hills Sculputure palette" >
-  <p class="RISWords"> Makeup revolution Iconic division <!--pic of dupe-->
-  <img class= "RevolutionIconicSize" src = "https://www.revolutionbeauty.com/Images/Models/Full/5829.jpg"></p> <!--pic of dupe-->
-  <alt="Makeup Revolution iconic Division palette" >
+  <h4 id="Anastasia" onmouseover="enlarge(Anastasia)" onmouseout="smaller(Anastasia)" onclick="show(infoAnastasia)","hide(infoTarte)"> Anastasia </h4>
+  <h4 id="Tarte" onmouseover="enlarge(Tarte)" onmouseout="smaller(Tarte)" onclick="show(infoTarte)","hide(infoAnastasia)"> Tarte </h4></p>
+  <div id="infoAnastasia" class="hidden" >
+	   <div id="SculpturePalette">Sculputure palette (42$) <!--original-->
+       <p> dupe; Makeup Revolution Iconic Division (7$) </p> <!--- dupe -->
+       Which can be found in <a href="https://www.ulta.com/reloaded-palette?productId=xlsImpprod17681065">Ulta</a>
+       and in <a href="https://www.revolutionbeauty.com/en/us/Revolution-Re-Loaded-Palette---Iconic-Division/m-5829.aspx">revolutionbeauty</a>.
+       <!-- link to ulta and revolutionbeauty -->
+       <p class="SPimage"> Sculputure palette <!-- pic of original-->
+       <img src = "https://www.anastasiabeverlyhills.co.uk/dw/image/v2/BBLL_PRD/on/demandware.static/-/Sites-anastasia-master-catalog/default/dwc632f4ee/images/Redesign/Rescaled/abh_subculture_a.jpg?sw=285&sh=285&sm=fit">
+       <alt="Anastasia Beverly hills Sculputure palette" >
+       Makeup revolution Iconic division <!--pic of dupe-->
+       <img class= "RevolutionIconicSize" src = "https://www.revolutionbeauty.com/Images/Models/Full/5829.jpg"></p> <!--pic of dupe-->
+       <alt="Makeup Revolution iconic Division palette" >
+     </div>
   <!-- eyebrows -->
   <br>
   <p> Anastasia Beverly Hills Dipbrow Pomade (18$) </p>
@@ -52,6 +55,12 @@
 <!-- countour kit -->
   <p> Anastasia beverly hills Contour Kit(40$)
   NYX highlight and contour palette(25$)</P>
-<iframe class="totheright" src="https://open.spotify.com/embed?uri=spotify:user:spotify:playlist:37i9dQZF1DXcBWIGoYBM5M" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
+<div id= "infoTarte" class="hidden">
+  tarte concealer
+  NYX concealer
+</div>
+<iframe class="totheright" src="https://open.spotify.com/embed?uri=spotify:user:spotify:playlist:37i9dQZF1DXcBWIGoYBM5M" width="250" height="250" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </body>
+</html>
+
