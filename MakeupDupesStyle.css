@@ -3,19 +3,24 @@ body
   background-image: url("cosmetics.jpg");
   background-repeat: repeat-x;
 }
+
+#byebackground {
+  background-image: url("http://www.intrawallpaper.com/static/images/gradient-background.jpg");
+
+}
 h1 {
   text-align:center;
   font-family: 'Lobster', cursive;
    color:#ff6666;
   }
 h3 { text-align: center; font-size: 22px; color: #999999; }
-h4 { text-align:center; word-spacing:15px; display:inline; font-size: 35px; font-family: 'Great Vibes', cursive;} /*Anastasia*/
-
+#TarteFont { text-align:center; display:block;; font-size: 35px; font-family: 'Great Vibes', cursive;} /*Anastasia*/
+#Anastasiafont {  text-align: center;  display:block; font-size: 35px; font-family: 'Great Vibes', cursive;}
 #Header {
   background-color: white;
   padding: 10px;
   opacity:50;
-/*about me and makeup dupes white box*/
+  /*about me and makeup dupes white box*/
 }
 .makeGray {  color: #999999; } /*about me*/
 
@@ -23,8 +28,23 @@ h4 { text-align:center; word-spacing:15px; display:inline; font-size: 35px; font
 width:175px;
 display: inline-block; }
 
-.hidden { display: none;} /*display the info*/
-.SPimage {display: inline-block}
+.SPimage {display: inline-block;
+height: 100px
+width: 150px}
 .totheright{
     display:inline-block;
+}
+
+.topnav{
+  background-color: black;
+  overflow: hidden;
+  text-align: center;
+}
+.topnav a {
+  display: inline-block;
+color: white;
+text-align: center;
+padding: 20px 20px;
+text-decoration: none;
+font-size: 17px;
 }
